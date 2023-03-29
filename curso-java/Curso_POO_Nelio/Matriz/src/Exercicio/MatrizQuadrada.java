@@ -31,6 +31,7 @@ public class MatrizQuadrada {
             System.out.println(sb);
 
             N = sc.nextInt();
+            
 
         }
     }
