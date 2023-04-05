@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Set<ArcoIris> arcoIris = new HashSet<>(){{
+        Set<ArcoIris> arcoIris = new LinkedHashSet<>(){{
             add(new ArcoIris("Vermelho"));
             add(new ArcoIris("Laranja"));
             add(new ArcoIris("Amarelo"));
@@ -72,7 +72,6 @@ public class Main {
 
 
         System.out.println("Confira se o conjunto está vazio: " + arcoIris.isEmpty());
-
 
     }
 
