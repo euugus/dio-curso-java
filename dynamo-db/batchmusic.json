@@ -1,0 +1,34 @@
+{
+  "Music": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": {"S": "Guns N' Roses"},
+          "SongTitle": {"S": "Don't Cry"},
+          "AlbumTitle": {"S": "Use Your Illusion I"},
+          "SongYear": {"S": "1991"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": {"S": "Guns N' Roses"},
+          "SongTitle": {"S": "Civil War"},
+          "AlbumTitle": {"S": "Use Your Illusion II"},
+          "SongYear": {"S": "1991"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": {"S": "Guns N' Roses"},
+          "SongTitle": {"S": "November Rain"},
+          "AlbumTitle": {"S": "Use Your Illusion I"},
+          "SongYear": {"S": "1991"}
+        }
+      }
+    }
+  ]
+}
